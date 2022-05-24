@@ -11,9 +11,10 @@
 		092B93A9283BE5A20042D249 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092B93A8283BE5A20042D249 /* ViewController.swift */; };
 		092B93AE283BE5A40042D249 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 092B93AD283BE5A40042D249 /* Assets.xcassets */; };
 		092B93B1283BE5A40042D249 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 092B93AF283BE5A40042D249 /* LaunchScreen.storyboard */; };
-		092B93BA283BE6760042D249 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092B93B9283BE6760042D249 /* ViewController2.swift */; };
 		092B93BC283BE7140042D249 /* UIViewController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092B93BB283BE7140042D249 /* UIViewController+Utils.swift */; };
 		092B93BE283BE7FB0042D249 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092B93BD283BE7FB0042D249 /* MainViewController.swift */; };
+		092B93C5283CD5870042D249 /* Petition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092B93C4283CD5870042D249 /* Petition.swift */; };
+		092B93C7283CD6E30042D249 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092B93C6283CD6E30042D249 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,9 +24,10 @@
 		092B93AD283BE5A40042D249 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		092B93B0283BE5A40042D249 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		092B93B2283BE5A40042D249 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		092B93B9283BE6760042D249 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		092B93BB283BE7140042D249 /* UIViewController+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Utils.swift"; sourceTree = "<group>"; };
 		092B93BD283BE7FB0042D249 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		092B93C4283CD5870042D249 /* Petition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petition.swift; sourceTree = "<group>"; };
+		092B93C6283CD6E30042D249 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		092B93A3283BE5A20042D249 /* Project7 */ = {
 			isa = PBXGroup;
 			children = (
+				092B93C3283CD5720042D249 /* Models */,
 				092B93BF283BE8CB0042D249 /* Utils */,
 				092B93B8283BE5B00042D249 /* Files */,
 				092B93C0283BE8E40042D249 /* Views */,
@@ -89,9 +92,17 @@
 			children = (
 				092B93BD283BE7FB0042D249 /* MainViewController.swift */,
 				092B93A8283BE5A20042D249 /* ViewController.swift */,
-				092B93B9283BE6760042D249 /* ViewController2.swift */,
+				092B93C6283CD6E30042D249 /* DetailViewController.swift */,
 			);
 			name = Views;
+			sourceTree = "<group>";
+		};
+		092B93C3283CD5720042D249 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				092B93C4283CD5870042D249 /* Petition.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,8 +178,9 @@
 				092B93BC283BE7140042D249 /* UIViewController+Utils.swift in Sources */,
 				092B93A9283BE5A20042D249 /* ViewController.swift in Sources */,
 				092B93A5283BE5A20042D249 /* AppDelegate.swift in Sources */,
-				092B93BA283BE6760042D249 /* ViewController2.swift in Sources */,
 				092B93BE283BE7FB0042D249 /* MainViewController.swift in Sources */,
+				092B93C5283CD5870042D249 /* Petition.swift in Sources */,
+				092B93C7283CD6E30042D249 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

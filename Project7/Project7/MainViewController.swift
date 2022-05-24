@@ -15,11 +15,12 @@ class MainViewController: UITabBarController {
         super.viewDidLoad()
         
         let firstVC = ViewController()
-        let secondVC = ViewController2()
+        let secondVC = ViewController()
         
         firstVC.setTabBarImage(imageName: "list.dash.header.rectangle", title: "VC1")
-        
+        firstVC.tabBarItem.tag = 0
         secondVC.setTabBarImage(imageName: "ellipsis.circle", title: "More")
+        secondVC.tabBarItem.tag = 1
         
         let firstNav = UINavigationController(rootViewController: firstVC)
         
